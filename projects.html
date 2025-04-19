@@ -33,138 +33,366 @@
         </div>
     </nav>
 
-    <!-- Projects Section -->
-    <section class="projects-page">
-        <div class="container">
-            <h1 class="section-title">My Projects</h1>
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="javascript">JavaScript</button>
-                <button class="filter-btn" data-filter="python">Python</button>
-                <button class="filter-btn" data-filter="java">Java</button>
-                <button class="filter-btn" data-filter="typescript">TypeScript</button>
-                <button class="filter-btn" data-filter="angular">Angular</button>
+  <!-- Projects Section -->
+<section class="projects-page">
+    <div class="container">
+        <h1 class="section-title">My Projects</h1>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="javascript">JavaScript</button>
+            <button class="filter-btn" data-filter="python">Python</button>
+            <button class="filter-btn" data-filter="java">Java</button>
+            <button class="filter-btn" data-filter="typescript">TypeScript</button>
+            <button class="filter-btn" data-filter="angular">Angular</button>
+            <button class="filter-btn" data-filter="kotlin">Kotlin</button>
+        </div>
+        
+        <div class="projects-container">
+            <!-- Original Projects -->
+            <div class="project-item" data-tech="javascript html css">
+                <div class="project-img">
+                    <img src="assets/memory.jpg" alt="Memory Game">
+                </div>
+                <div class="project-content">
+                    <h3>Memory Game</h3>
+                    <p>A JavaScript memory matching game with card flip animations and timer.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/memory-game-javascript" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
             </div>
             
-            <div class="projects-container">
-                <!-- Project 1 -->
-                <div class="project-item" data-tech="javascript html css">
-                    <div class="project-img">
-                        <img src="assets/memory.jpg" alt="Memory Game">
+            <div class="project-item" data-tech="typescript html css">
+                <div class="project-img">
+                    <img src="assets/robot.avif" alt="Traffic Light">
+                </div>
+                <div class="project-content">
+                    <h3>Traffic Light Controller</h3>
+                    <p>Interactive traffic light simulation with timed transitions built with TypeScript.</p>
+                    <div class="project-tech">
+                        <span>TypeScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
                     </div>
-                    <div class="project-content">
-                        <h3>Memory Game</h3>
-                        <p>A JavaScript memory matching game with card flip animations and timer.</p>
-                        <div class="project-tech">
-                            <span>JavaScript</span>
-                            <span>HTML</span>
-                            <span>CSS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/nkululeko111/memory-game-javascript" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/traffic-light" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
                     </div>
                 </div>
-                
-                <!-- Project 2 -->
-                <div class="project-item" data-tech="typescript html css">
-                    <div class="project-img">
-                        <img src="assets/robot.avif" alt="Traffic Light">
+            </div>
+            
+            <div class="project-item" data-tech="angular typescript">
+                <div class="project-img">
+                    <img src="assets/16544.jpg" alt="E-commerce Dashboard">
+                </div>
+                <div class="project-content">
+                    <h3>E-commerce Dashboard</h3>
+                    <p>Angular admin dashboard with product and user management using FakeStore API.</p>
+                    <div class="project-tech">
+                        <span>Angular</span>
+                        <span>TypeScript</span>
+                        <span>FakeStore API</span>
                     </div>
-                    <div class="project-content">
-                        <h3>Traffic Light Controller</h3>
-                        <p>Interactive traffic light simulation with timed transitions built with TypeScript.</p>
-                        <div class="project-tech">
-                            <span>TypeScript</span>
-                            <span>HTML</span>
-                            <span>CSS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/nkululeko111/traffic-light" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/e-commerce-admin-dashboard" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
                     </div>
                 </div>
-                
-                <!-- Project 3 -->
-                <div class="project-item" data-tech="angular typescript">
-                    <div class="project-img">
-                        <img src="assets/16544.jpg" alt="E-commerce Dashboard">
+            </div>
+            
+            <div class="project-item" data-tech="python">
+                <div class="project-img">
+                    <img src="assets/tic.webp" alt="Tic Tac Toe">
+                </div>
+                <div class="project-content">
+                    <h3>Tic Tac Toe AI</h3>
+                    <p>Python implementation of automatic Tic Tac Toe game using random number generation.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
                     </div>
-                    <div class="project-content">
-                        <h3>E-commerce Dashboard</h3>
-                        <p>Angular admin dashboard with product and user management using FakeStore API.</p>
-                        <div class="project-tech">
-                            <span>Angular</span>
-                            <span>TypeScript</span>
-                            <span>FakeStore API</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/nkululeko111/e-commerce-admin-dashboard" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/tick-tac-toe" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
                     </div>
                 </div>
-                
-                <!-- Project 4 -->
-                <div class="project-item" data-tech="python">
-                    <div class="project-img">
-                        <img src="assets/tic.webp" alt="Tic Tac Toe">
+            </div>
+            
+            <div class="project-item" data-tech="java">
+                <div class="project-img">
+                    <img src="assets/inven.png" alt="Inventory System">
+                </div>
+                <div class="project-content">
+                    <h3>Inventory Management</h3>
+                    <p>Java application for small retail business to track stock levels and sales records.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
                     </div>
-                    <div class="project-content">
-                        <h3>Tic Tac Toe AI</h3>
-                        <p>Python implementation of automatic Tic Tac Toe game using random number generation.</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/nkululeko111/tick-tac-toe" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/inventory-management-system" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
                     </div>
                 </div>
-                
-                <!-- Project 5 -->
-                <div class="project-item" data-tech="java">
-                    <div class="project-img">
-                        <img src="assets/inven.png" alt="Inventory System">
+            </div>
+            
+            <div class="project-item" data-tech="typescript angular">
+                <div class="project-img">
+                    <img src="assets/hotel.png" alt="Hotel Management">
+                </div>
+                <div class="project-content">
+                    <h3>Hotel Management App</h3>
+                    <p>Hotel Management App with Angular and Firebase for room bookings and management.</p>
+                    <div class="project-tech">
+                        <span>Angular</span>
+                        <span>TypeScript</span>
+                        <span>Firebase</span>
                     </div>
-                    <div class="project-content">
-                        <h3>Inventory Management</h3>
-                        <p>Java application for small retail business to track stock levels and sales records.</p>
-                        <div class="project-tech">
-                            <span>Java</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/nkululeko111/inventory-management-system" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/hotel-management-app" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
                     </div>
                 </div>
-                
-                <!-- Project 6 -->
-                <div class="project-item" data-tech="typescript angular">
-                    <div class="project-img">
-                        <img src="assets/hotel.png" alt="Hotel Management">
+            </div>
+            
+            <!-- New Projects from GitHub -->
+            <div class="project-item" data-tech="javascript">
+                <div class="project-img">
+                    <img src="assets/travel.png" alt="Travel and Expense Management">
+                </div>
+                <div class="project-content">
+                    <h3>Travel and Expense Management</h3>
+                    <p>Comprehensive travel management system that integrates with Amadeus API to search and book flights, hotels, and car rentals. Creates detailed itineraries, records associated expenses, and tracks all travel-related expenditures with reporting features for reimbursement processing.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>Amadeus API</span>
+                        <span>Expense Tracking</span>
                     </div>
-                    <div class="project-content">
-                        <h3>Hotel Management App</h3>
-                        <p>Hotel Management App with Angular and Firebase for room bookings and management.</p>
-                        <div class="project-tech">
-                            <span>Angular</span>
-                            <span>TypeScript</span>
-                            <span>Firebase</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/nkululeko111/hotel-management-app" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/Travel-and-Expense-Management" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="javascript">
+                <div class="project-img">
+                    <img src="assets/expense.jpg" alt="Invoice Process Tracker">
+                </div>
+                <div class="project-content">
+                    <h3>Invoice Process Tracker</h3>
+                    <p>Automated invoice processing system that extracts data from PDFs using OCR technology, tracks each invoice through approval stages, and provides export functionality in both PDF and CSV formats. Streamlines accounts payable workflow with status monitoring and reporting capabilities.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>OCR Technology</span>
+                        <span>PDF Processing</span>
+                        <span>Data Export</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/Invoice-process-tracker" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="typescript">
+                <div class="project-img">
+                    <img src="assets/EMPL.avif" alt="Employee App">
+                </div>
+                <div class="project-content">
+                    <h3>Employee App</h3>
+                    <p>Application for managing employee data and records.</p>
+                    <div class="project-tech">
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/employee-app" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="typescript">
+                <div class="project-img">
+                    <img src="assets/todo.jpg" alt="Todo List Ionic">
+                </div>
+                <div class="project-content">
+                    <h3>Todo List (Ionic)</h3>
+                    <p>Todo list application built with Ionic framework.</p>
+                    <div class="project-tech">
+                        <span>TypeScript</span>
+                        <span>Ionic</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/Todo-List-Ionic" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="java">
+                <div class="project-img">
+                    <img src="assets/waste.jpg" alt="Waste Sorting App">
+                </div>
+                <div class="project-content">
+                    <h3>Waste Sorting App</h3>
+                    <p>Application to help with waste sorting and recycling.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/WasteSortingApp" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="kotlin">
+                <div class="project-img">
+                    <img src="assets/tribe.jpg" alt="World Tribes">
+                </div>
+                <div class="project-content">
+                    <h3>World Tribes</h3>
+                    <p>Application exploring world cultures and tribes.</p>
+                    <div class="project-tech">
+                        <span>Kotlin</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/WorldTribes" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="typescript">
+                <div class="project-img">
+                    <img src="assets/study.jpg" alt="Study Buddy">
+                </div>
+                <div class="project-content">
+                    <h3>Study Buddy</h3>
+                    <p>Your learning companion, anywhere, in any language.</p>
+                    <div class="project-tech">
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/study-buddy" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="typescript">
+                <div class="project-img">
+                    <img src="assets/typescript.webp" alt="TypeScript Exercises">
+                </div>
+                <div class="project-content">
+                    <h3>TypeScript Exercises</h3>
+                    <p>Collection of basic TypeScript exercises and examples.</p>
+                    <div class="project-tech">
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/typescript-exercises" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="javascript">
+                <div class="project-img">
+                    <img src="assets/calculator.jpg" alt="TypeScript Task">
+                </div>
+                <div class="project-content">
+                    <h3>TypeScript Task</h3>
+                    <p>Calculator interface & TrafficLight implementations in TypeScript.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/typescript-task" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="python">
+                <div class="project-img">
+                    <img src="assets/queue.jpg" alt="Queuing System">
+                </div>
+                <div class="project-content">
+                    <h3>Queuing System</h3>
+                    <p>Python implementation of a queuing system.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/queuing-system" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="java">
+                <div class="project-img">
+                    <img src="assets/soccer.avif" alt="Soccer Fixtures">
+                </div>
+                <div class="project-content">
+                    <h3>Soccer Fixtures</h3>
+                    <p>Application for tracking soccer fixtures using API Sport.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/soccer-fixtures" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+        
+            
+            <div class="project-item" data-tech="javascript">
+                <div class="project-img">
+                    <img src="assets/todo.jpg" alt="To-Do List">
+                </div>
+                <div class="project-content">
+                    <h3>To-Do List</h3>
+                    <p>To Do List with Priorities management.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/To-Do-List" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-tech="javascript">
+                <div class="project-img">
+                    <img src="assets/javascript.jpg" alt="JavaScript Refresher">
+                </div>
+                <div class="project-content">
+                    <h3>JavaScript Refresher</h3>
+                    <p>Fundamentals of JavaScript exercises and examples.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nkululeko111/codetribe-javascript-refresher" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="demo-link"><i class="fas fa-external-link-alt"></i> Demo</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer>
@@ -193,7 +421,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Nkululeko Zwane. All rights reserved.</p>
+            <p>&copy; 2024 Nkululeko 'NK' Zwane. All rights reserved.</p>
         </div>
     </footer>
 
