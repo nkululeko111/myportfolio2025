@@ -50,12 +50,17 @@ darkModeToggle.addEventListener('click', () => {
 });
 
 // Check for saved dark mode preference
-if (localStorage.getItem('darkMode') === 'true') {
+const savedDarkMode = localStorage.getItem('darkMode');
+
+if (savedDarkMode === null || savedDarkMode === 'true') {
     document.body.classList.add('dark-mode');
+    localStorage.setItem('darkMode', 'true'); // Save default
+
     const icon = darkModeToggle.querySelector('i');
     icon.classList.remove('fa-moon');
     icon.classList.add('fa-sun');
 }
+
 
 // Mobile Navigation
 hamburger.addEventListener('click', () => {
